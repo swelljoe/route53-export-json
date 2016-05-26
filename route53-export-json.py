@@ -7,7 +7,7 @@ import boto3
 client = boto3.client(
     'route53',
     aws_access_key_id = '<access_key>',
-    aws_secret_access_key = ''<secret_key>',
+    aws_secret_access_key = '<secret_key>',
 )
 
 response = client.list_hosted_zones(
