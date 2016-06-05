@@ -2,7 +2,6 @@
 require 'aws-sdk'
 require 'json'
 require 'inifile'
-require 'pp'
 
 creds = IniFile.load('/home/joe/.aws/credentials')
 
